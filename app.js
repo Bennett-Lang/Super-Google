@@ -36,7 +36,7 @@ function injectScript(data) {
 }
 
 var unblockerConfig = {
-    prefix: '/textbooks/',
+    prefix: '/search/',
  	responseMiddleware: [
 		injectScript
 	]
